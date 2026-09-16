@@ -5,7 +5,7 @@ def three_sum(arr):
 
     for i in range(n - 2):
         if i > 0 and arr[i] == arr[i + 1]:
-                continue
+            continue
         
         start = i + 1
         end = n - 1
